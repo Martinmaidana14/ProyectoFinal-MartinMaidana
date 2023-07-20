@@ -3,9 +3,13 @@
 
 .contact {
     background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     form{
         display: flex;
         justify-content: center;
+        width: 50%;
         .inputs {
             display: grid;
             grid-template-columns: 1fr 1fr;
