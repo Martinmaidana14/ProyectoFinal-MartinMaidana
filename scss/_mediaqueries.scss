@@ -12,32 +12,25 @@
 
 @media (max-width:768px){
 
-    .inputs {
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "h1"
-    "nombre"
-    "correo"
-    "tel"
-    "contrasenia"
-    "mensaje"
-    "boton"
-    ;
-    }}
+    .contact form .inputs{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "h1"
+        "nombre"
+        "correo"
+        "tel"
+        "contrasenia"
+        "mensaje"
+        "boton"
+        ;
+        }}
+
 
 @media (max-width:768px){
 
-    .contact form {
+    .contenedorcontacto {
         display: flex;
-        justify-content: center;
-        width: 90%;
-    }}
-
-@media (max-width:768px){
-
-    .contenedorcontacto  {
-    display: flex;
-    align-self: center;
+        align-self: center;
     }}
 
 
