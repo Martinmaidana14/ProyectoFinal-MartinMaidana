@@ -1,0 +1,350 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:ital@1&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* index.html */
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(100, 149, 247, 0.774);
+  /* NAVBAR*/
+  /* Centrado */
+}
+header .logoRedes {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .centerBar {
+  align-items: end;
+  justify-content: center;
+}
+header .flexEnd {
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  background-color: rgba(100, 149, 247, 0.774);
+  width: 100%;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  margin-left: 10px;
+}
+header nav .logotipo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.home h1 {
+  text-align: center;
+}
+.home h4 {
+  text-align: center;
+}
+.home .caja {
+  height: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  border: 2px groove rgb(100, 149, 247);
+  border-radius: 10px;
+}
+
+.servis {
+  background-color: bisque;
+}
+.servis h2 {
+  display: flex;
+  justify-content: center;
+}
+.servis .incendio {
+  width: 80%;
+}
+.servis .contenedorhydro {
+  display: flex;
+  justify-content: center;
+}
+.servis h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.servis p {
+  display: flex;
+  justify-content: center;
+}
+.servis .video1 {
+  display: flex;
+  justify-content: center;
+}
+.servis .video1 .iframeservis {
+  width: 80%;
+  height: 400px;
+}
+
+/* MAIN QUIENES SOMOS */
+.somos {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+.somos .imgtexto {
+  display: flex;
+  align-self: center;
+  width: 60%;
+  background-image: url(./../img/chapaFondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  text-shadow: white 1px 0 5px;
+}
+.somos .imgtexto .textosomos {
+  color: black;
+  width: 90%;
+  padding: 40px;
+  margin: 0;
+}
+.somos .contenedorImgSomos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.somos .contenedorImgSomos .big {
+  width: 400px;
+  border: 10px groove rgb(100, 149, 247);
+  border-radius: 20px;
+}
+.somos .contenedorImgSomos .medium {
+  width: 400px;
+  border: 10px groove rgb(100, 149, 247);
+  border-radius: 20px;
+}
+.somos .contenedorImgSomos .small {
+  width: 400px;
+  border: 10px groove rgb(100, 149, 247);
+  border-radius: 20px;
+}
+
+/* MAIN CONTACTO */
+.contact {
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact form {
+  display: flex;
+  justify-content: center;
+}
+.contact form .inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "h1 h1" "nombre correo" "tel contrasenia" "mensaje mensaje" "boton boton";
+}
+.contact form .inputs .contenedorH1 {
+  grid-area: h1;
+  justify-self: center;
+}
+.contact form .inputs .nombr {
+  grid-area: nombre;
+}
+.contact form .inputs .corre {
+  grid-area: correo;
+}
+.contact form .inputs .telefon {
+  grid-area: tel;
+}
+.contact form .inputs .contraseni {
+  grid-area: contrasenia;
+}
+.contact form .inputs .mensaje {
+  grid-area: mensaje;
+  display: flex;
+  flex-direction: column;
+}
+.contact form .inputs .boton {
+  grid-area: boton;
+  justify-self: end;
+}
+.contact .contenedorList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact .contenedorList .contenedorcontacto {
+  display: flex;
+  justify-content: center;
+}
+.contact .contenedorList .contact2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.contact .contenedorList .contact2 .direccion {
+  background-color: bisque;
+}
+.contact .contenedorList .contact2 .telefono {
+  background-color: bisque;
+}
+.contact .contenedorList .contact2 .email {
+  background-color: bisque;
+}
+.contact .contenedorList .contact2 .sitioweb {
+  background-color: bisque;
+}
+
+/* DIV MAPS */
+.contenedorMaps {
+  display: flex;
+  justify-content: center;
+}
+.contenedorMaps .iframecontact {
+  width: 80%;
+  height: 400px;
+}
+
+/* HEADER*/
+@media (max-width: 991px) {
+  .centerBar {
+    flex-direction: column;
+  }
+}
+/* MAIN CONTACTO */
+@media (max-width: 768px) {
+  .inputs {
+    grid-template-columns: 1fr;
+    grid-template-areas: "h1" "nombre" "correo" "tel" "contrasenia" "mensaje" "boton";
+  }
+}
+@media (max-width: 768px) {
+  .contenedorcontacto {
+    display: flex;
+    align-self: center;
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+}
+/* CARD BOOTSTRAP */
+@media (max-width: 768px) {
+  .card-img {
+    height: 400px;
+  }
+}
+/* MAIN CLIENTES */
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  text-shadow: black 4px 0 20px;
+  margin: 20px;
+}
+
+/* CARD BOOTSTRAP */
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
+  background-color:   rgba(0, 0, 0, 0.4196078431);
+}
+
+.card {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card-title2 {
+  background-color:   rgba(0, 0, 0, 0.031372549);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.card-text2 {
+  background-color:   rgba(0, 0, 0, 0.031372549);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4c4747;
+}
+
+.copy {
+  display: flex;
+  color: rgb(100, 149, 247);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+  color: rgb(100, 149, 247);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  color: rgb(100, 149, 247);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

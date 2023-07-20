@@ -1,0 +1,90 @@
+/* MAIN CONTACTO */
+
+
+.contact {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    form{
+        display: flex;
+        justify-content: center;
+        .inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "h1 h1"
+            "nombre correo"
+            "tel contrasenia"
+            "mensaje mensaje"
+            "boton boton";
+            .contenedorH1{
+                grid-area: h1;
+                justify-self: center;
+            }
+            .nombr {
+                grid-area: nombre;
+            }
+            .corre {
+                grid-area: correo;
+            }
+            .telefon {
+                grid-area: tel;
+            }
+            .contraseni {
+                grid-area: contrasenia;
+            }
+            .mensaje {
+                grid-area: mensaje;
+                display: flex;
+                flex-direction: column;
+            }
+            .boton {
+                grid-area: boton;
+                justify-self: end;
+            }
+        }
+    }
+    .contenedorList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .contenedorcontacto {
+            display: flex;
+            justify-content: center;
+        }
+        .contact2 {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            .direccion {
+                background-color: bisque;
+            }
+            .telefono {
+                background-color: bisque;
+            }
+            .email {
+                background-color: bisque;
+            }
+            .sitioweb {
+                background-color: bisque;
+            }
+        }
+    }
+}
+
+/* DIV MAPS */
+
+
+.contenedorMaps {
+    display: flex;
+    justify-content: center;
+    .iframecontact {
+        width: 80%;
+        height: 400px;
+    }
+}
+
+
+
+

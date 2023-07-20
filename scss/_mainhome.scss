@@ -1,0 +1,25 @@
+// MAIN INDEX 
+
+.home {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column; 
+    align-items:center; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    h1 {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+    .caja {
+        height: 100px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 25px;
+        border: 2px groove rgba(100, 149, 247);
+        border-radius: 10px;
+    }
+}

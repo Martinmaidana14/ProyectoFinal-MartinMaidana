@@ -1,0 +1,31 @@
+.servis {
+    background-color: bisque;
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+    .incendio {
+        width: 80%;
+    }
+    .contenedorhydro {
+        display: flex;
+        justify-content: center;
+    }
+    h5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+    }
+    .video1 {
+        display: flex;
+        justify-content: center;
+        .iframeservis {
+            width: 80%;
+            height: 400px;
+        }
+    }
+}

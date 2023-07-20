@@ -1,0 +1,47 @@
+/* MAIN QUIENES SOMOS */
+
+
+.somos {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    .imgtexto {
+        display: flex;
+        align-self: center;
+        width: 60%;
+        background-image: url(./../img/chapaFondo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 20px;
+        text-shadow: white 1px 0 5px;
+        .textosomos {
+            color: black;
+            width: 90%;
+            padding: 40px;
+            margin: 0;
+        }
+    }
+    .contenedorImgSomos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .big {
+            width: 400px;
+            border: 10px groove rgba(100, 149, 247);
+            border-radius: 20px;
+        }
+        
+        .medium {
+            width: 400px;
+            border: 10px groove rgba(100, 149, 247);
+            border-radius: 20px;
+        }
+        
+        .small {
+            width: 400px;
+            border: 10px groove rgba(100, 149, 247);
+            border-radius: 20px;
+        }
+    }
+}
