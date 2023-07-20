@@ -36,9 +36,10 @@
 
 @media (max-width:768px){
 
-    .contact {
-    flex-direction: column;
-    justify-content: center;
+    .contact form {
+        display: flex;
+        justify-content: center;
+        width: 90%;
     }}
 
 
