@@ -157,11 +157,12 @@ h1 {
   background-color: bisque;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .contact form {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 .contact form .inputs {
   display: grid;
@@ -238,7 +239,7 @@ h1 {
 }
 /* MAIN CONTACTO */
 @media (max-width: 768px) {
-  .inputs {
+  .contact form .inputs {
     grid-template-columns: 1fr;
     grid-template-areas: "h1" "nombre" "correo" "tel" "contrasenia" "mensaje" "boton";
   }
@@ -247,12 +248,6 @@ h1 {
   .contenedorcontacto {
     display: flex;
     align-self: center;
-  }
-}
-@media (max-width: 768px) {
-  .contact {
-    flex-direction: column;
-    justify-content: center;
   }
 }
 @media (max-width: 768px) {

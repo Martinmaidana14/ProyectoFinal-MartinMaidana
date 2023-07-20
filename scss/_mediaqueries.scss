@@ -10,20 +10,19 @@
 
 /* MAIN CONTACTO */
 
-@media (max-width:768px){
-
-    .contact form .inputs{
+@media (max-width: 768px) {
+    .contact form .inputs {
         grid-template-columns: 1fr;
-        grid-template-areas:
-        "h1"
-        "nombre"
-        "correo"
-        "tel"
-        "contrasenia"
-        "mensaje"
-        "boton"
-        ;
-        }}
+        grid-template-areas: 
+        "h1" 
+        "nombre" 
+        "correo" 
+        "tel" 
+        "contrasenia" 
+        "mensaje" 
+        "boton";
+    }
+}
 
 
 @media (max-width:768px){
