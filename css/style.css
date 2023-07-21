@@ -239,18 +239,19 @@ h1 {
 }
 /* MAIN CONTACTO */
 @media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .contact form .inputs {
     grid-template-columns: 1fr;
     grid-template-areas: "h1" "nombre" "correo" "tel" "contrasenia" "mensaje" "boton";
   }
-}
-@media (max-width: 768px) {
   .contact2 {
     display: flex;
     flex-direction: column;
   }
-}
-@media (max-width: 768px) {
   .contenedorcontacto {
     display: flex;
     align-self: center;
@@ -311,7 +312,7 @@ h1 {
 }
 
 .card-text2 {
-  background-color:   rgba(0, 0, 0, 0.031372549);
+  background-color: rgba(0, 0, 0, 0.031372549);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
