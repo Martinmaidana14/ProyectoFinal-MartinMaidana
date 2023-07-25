@@ -195,8 +195,9 @@ h1 {
   justify-self: end;
 }
 .contact form .inputs .boton .button {
-  background-color: linear-gradient(to right, #4c4747, rgb(100, 149, 247));
+  background: linear-gradient(to right, #4c4747, rgb(100, 149, 247));
   color: white;
+  padding: 10px 25px;
 }
 .contact .contenedorList {
   display: flex;
