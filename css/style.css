@@ -194,10 +194,17 @@ h1 {
   grid-area: boton;
   justify-self: end;
 }
-.contact form .inputs .boton .button {
-  background: linear-gradient(to right, #4c4747, rgb(100, 149, 247));
+.contact form .inputs .boton button {
+  background: linear-gradient(to right, #3a3636, rgb(86, 130, 216));
   color: white;
   padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+.contact form .inputs .boton button:hover {
+  background: linear-gradient(to right, #2a2727, rgb(68, 102, 171));
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
 }
 .contact .contenedorList {
   display: flex;
