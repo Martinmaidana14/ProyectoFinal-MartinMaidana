@@ -194,6 +194,10 @@ h1 {
   grid-area: boton;
   justify-self: end;
 }
+.contact form .inputs .boton .button {
+  background-color: linear-gradient(to right, #4c4747, rgb(100, 149, 247));
+  color: white;
+}
 .contact .contenedorList {
   display: flex;
   flex-direction: column;

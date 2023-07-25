@@ -43,6 +43,10 @@
             .boton {
                 grid-area: boton;
                 justify-self: end;
+                .button {
+                    background-color: linear-gradient(to right, #4c4747 , rgba(100, 149, 247));
+                    color: white;
+                }
             }
         }
     }
