@@ -375,13 +375,7 @@ footer .copy {
   .contenedorImgSomos {
     width: 100%;
   }
-  .contenedorImgSomos .big {
-    width: 100%;
-  }
-  .contenedorImgSomos .medium {
-    width: 100%;
-  }
-  .contenedorImgSomos .small {
+  .contenedorImgSomos img {
     width: 100%;
   }
 }
