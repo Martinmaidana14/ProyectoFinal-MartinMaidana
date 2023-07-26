@@ -5,49 +5,6 @@
     font-family: "Ubuntu" , sans-serif;
 }
 
-/* index.html */
-
-/* HEADER */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(100, 149, 247, 0.774);
-    /* NAVBAR*/
-    .logoRedes{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    /* Centrado */
-    .centerBar{
-        align-items: end;
-        justify-content: center;
-    }
-    .flexEnd{
-        justify-content: flex-end;
-        align-items: center;
-    }
-    nav {
-        display: flex;
-        align-items: center;
-        background-color: rgba(100, 149, 247, 0.774);
-        width: 100%;
-        justify-content: space-between;
-        ul {
-            display: flex;
-            list-style-type: none;
-            li {
-                margin-left: 10px;
-            }
-        }
-        .logotipo{
-            display: flex;
-            width: 100px;
-            height: 100px;
-        }
-    }
-}
 
 // TODOS LOS H1
 
@@ -60,6 +17,9 @@ h1 {
 
 $main-color: bisque;
 
+@import "./header";
+
+@import "./footer";
 
 @import "./mainhome";
 

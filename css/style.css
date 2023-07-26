@@ -4,7 +4,12 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-/* index.html */
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/*VARIABLE*/
 /* HEADER */
 header {
   display: flex;
@@ -46,12 +51,39 @@ header nav .logotipo {
   height: 100px;
 }
 
-h1 {
+/* FOOTER */
+footer {
+  background-color: #4c4747;
+}
+footer .redes {
   display: flex;
+  color: rgb(100, 149, 247);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .redes .irAHeader {
+  background: linear-gradient(to right, #9e5a45, rgba(255, 213, 162, 0.785));
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+footer .info {
+  display: flex;
+  color: rgb(100, 149, 247);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .copy {
+  display: flex;
+  color: rgb(100, 149, 247);
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-/*VARIABLE*/
 .home {
   background-color: bisque;
   display: flex;
@@ -327,12 +359,6 @@ h1 {
     align-self: center;
   }
 }
-/*MAIN SOMOS */
-@media (max-width: 400px) {
-  .contenedorImgSomos {
-    width: 50px;
-  }
-}
 @media (max-width: 768px) {
   iframe {
     width: 100%;
@@ -342,6 +368,12 @@ h1 {
 @media (max-width: 768px) {
   .card-img {
     height: 400px;
+  }
+}
+/*MAIN SOMOS */
+@media (max-width: 400px) {
+  .contenedorImgSomos {
+    width: 50px;
   }
 }
 

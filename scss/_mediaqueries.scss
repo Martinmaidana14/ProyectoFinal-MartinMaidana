@@ -37,15 +37,6 @@
     }
 }
 
-/*MAIN SOMOS */
-
-@media (max-width:400px) {
-
-    .contenedorImgSomos {
-        width: 50px;
-    }
-}
-
 @media (max-width:768px){
 
     iframe {
@@ -59,3 +50,12 @@
     .card-img {
     height: 400px;
     }}
+
+/*MAIN SOMOS */
+
+@media (max-width:400px) {
+
+    .contenedorImgSomos {
+        width: 50px;
+    }
+}
