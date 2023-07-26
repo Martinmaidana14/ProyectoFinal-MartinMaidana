@@ -325,6 +325,14 @@ h1 {
     align-self: center;
   }
 }
+/*MAIN SOMOS */
+@media (max-width: 400px) {
+  .contenedorImgSomos {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+}
 @media (max-width: 768px) {
   iframe {
     width: 100%;
@@ -339,6 +347,14 @@ h1 {
 /* FOOTER */
 footer {
   background-color: #4c4747;
+}
+
+.irAHeader {
+  background: linear-gradient(to right, #9e5a45, rgba(255, 213, 162, 0.785));
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
 }
 
 .copy {

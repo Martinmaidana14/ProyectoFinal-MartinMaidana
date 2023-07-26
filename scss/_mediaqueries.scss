@@ -37,6 +37,17 @@
     }
 }
 
+/*MAIN SOMOS */
+
+@media (max-width:400px) {
+
+    .contenedorImgSomos {
+        display: flex;
+        flex-direction: column;
+        
+        width: 200px;
+    }
+}
 
 @media (max-width:768px){
 
