@@ -372,10 +372,16 @@ footer .copy {
 }
 /*MAIN SOMOS */
 @media (max-width: 400px) {
-  .contenedorImgSomos {
+  .somos .contenedorImgSomos {
     width: 100%;
   }
-  .contenedorImgSomos img {
+  .somos .contenedorImgSomos .big {
+    width: 100%;
+  }
+  .somos .contenedorImgSomos .medium {
+    width: 100%;
+  }
+  .somos .contenedorImgSomos .small {
     width: 100%;
   }
 }
