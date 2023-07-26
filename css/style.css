@@ -113,9 +113,11 @@ h1 {
   background-color: bisque;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .somos .imgtexto {
   display: flex;
+  justify-content: center;
   align-self: center;
   width: 60%;
   background-image: url(./../img/chapaFondo.png);
@@ -328,9 +330,7 @@ h1 {
 /*MAIN SOMOS */
 @media (max-width: 400px) {
   .contenedorImgSomos {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
+    width: 50px;
   }
 }
 @media (max-width: 768px) {

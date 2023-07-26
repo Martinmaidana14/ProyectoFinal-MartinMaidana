@@ -5,8 +5,10 @@
     background-color: $main-color;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     .imgtexto {
         display: flex;
+        justify-content: center;
         align-self: center;
         width: 60%;
         background-image: url(./../img/chapaFondo.png);
