@@ -1,5 +1,10 @@
 // MAIN INDEX 
 
+
+.centerBar {
+    display: flex;
+    justify-content: center;
+}
 .home {
     background-color: $main-color;
     display: flex;

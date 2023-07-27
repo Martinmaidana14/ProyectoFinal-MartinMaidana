@@ -84,6 +84,11 @@ footer .copy {
   align-items: center;
 }
 
+.centerBar {
+  display: flex;
+  justify-content: center;
+}
+
 .home {
   background-color: white;
   display: flex;
