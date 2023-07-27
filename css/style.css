@@ -85,7 +85,7 @@ footer .copy {
 }
 
 .home {
-  background-color: bisque;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,8 +100,8 @@ footer .copy {
 }
 .home .caja {
   height: 100px;
-  background-color: white;
-  color: black;
+  background-color: rgba(34, 34, 34, 0.8862745098);
+  color: white;
   text-align: center;
   padding: 25px;
   border: 2px groove rgb(100, 149, 247);
@@ -109,7 +109,7 @@ footer .copy {
 }
 
 .servis {
-  background-color: bisque;
+  background-color: white;
 }
 .servis h2 {
   display: flex;
@@ -142,7 +142,7 @@ footer .copy {
 
 /* MAIN QUIENES SOMOS */
 .somos {
-  background-color: bisque;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,7 +188,7 @@ footer .copy {
 
 /* MAIN CONTACTO */
 .contact {
-  background-color: bisque;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -279,7 +279,7 @@ footer .copy {
 
 /* MAIN CLIENTES */
 .clients {
-  background-color: bisque;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
