@@ -349,6 +349,11 @@ header .centerBar .nav-item {
 
 /* HEADER*/
 @media (max-width: 991px) {
+  .imgslider {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
   .centerBar {
     flex-direction: column;
     align-items: center;
