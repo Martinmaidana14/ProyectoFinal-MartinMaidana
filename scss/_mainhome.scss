@@ -3,7 +3,12 @@
 
 .centerBar {
     display: flex;
-    justify-content: center;
+    align-self: center;
+    padding: 0%;
+    .nav-item {
+        display: flex;
+        align-self: center;
+    }
 }
 .home {
     background-color: $main-color;

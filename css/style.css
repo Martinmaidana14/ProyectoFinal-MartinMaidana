@@ -86,7 +86,12 @@ footer .copy {
 
 .centerBar {
   display: flex;
-  justify-content: center;
+  align-self: center;
+  padding: 0%;
+}
+.centerBar .nav-item {
+  display: flex;
+  align-self: center;
 }
 
 .home {
