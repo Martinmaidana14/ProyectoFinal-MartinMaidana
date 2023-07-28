@@ -1,8 +1,9 @@
 // MAIN INDEX 
 
 
-.centerBar {
+header .centerBar {
     display: flex;
+    justify-content: center;
     align-self: center;
     padding: 0%;
     .nav-item {

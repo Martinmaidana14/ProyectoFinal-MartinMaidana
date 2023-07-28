@@ -24,7 +24,7 @@ header .logoRedes {
   align-items: center;
 }
 header .centerBar {
-  align-items: end;
+  align-items: center;
   justify-content: center;
 }
 header .flexEnd {
@@ -84,12 +84,13 @@ footer .copy {
   align-items: center;
 }
 
-.centerBar {
+header .centerBar {
   display: flex;
+  justify-content: center;
   align-self: center;
   padding: 0%;
 }
-.centerBar .nav-item {
+header .centerBar .nav-item {
   display: flex;
   align-self: center;
 }
@@ -348,6 +349,9 @@ footer .copy {
   .centerBar {
     flex-direction: column;
     align-items: center;
+  }
+  .centerBar .srmitem {
+    display: none;
   }
 }
 /* MAIN CONTACTO */
