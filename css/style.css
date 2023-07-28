@@ -349,7 +349,7 @@ header .centerBar .nav-item {
 
 /* HEADER*/
 @media (max-width: 991px) {
-  .img-slider {
+  .extension {
     width: 100%;
   }
 }
