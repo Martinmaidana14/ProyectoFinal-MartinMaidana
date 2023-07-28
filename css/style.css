@@ -118,6 +118,9 @@ header .centerBar .nav-item {
   border: 2px groove rgb(100, 149, 247);
   border-radius: 10px;
 }
+.home .carouselSlide {
+  width: 80%;
+}
 
 .servis {
   background-color: white;
@@ -350,7 +353,7 @@ header .centerBar .nav-item {
     flex-direction: column;
     align-items: center;
   }
-  .centerBar .srmitem {
+  .centerBar .srm-item {
     display: none;
   }
 }
