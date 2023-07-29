@@ -349,18 +349,18 @@ header .centerBar .nav-item {
 
 /* HEADER*/
 @media (max-width: 767px) {
-  .centerBar {
+  header .centerBar {
     display: flex;
     flex-direction: column;
     justify-items: end;
   }
-  .centerBar .srm-item {
+  header .centerBar .srm-item {
     display: none;
   }
-  .centerBar .extension {
+  header .centerBar .extension {
     width: 100%;
   }
-  .centerBar .extension .img-slider {
+  header .centerBar .extension .img-slider {
     width: 100%;
   }
 }
