@@ -348,7 +348,12 @@ header .centerBar .nav-item {
 }
 
 /* HEADER*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  header .centerBar .srm-item {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
   header .centerBar {
     display: flex;
     flex-direction: column;

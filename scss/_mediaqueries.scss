@@ -3,7 +3,15 @@
 /* HEADER*/
 
 
-@media (max-width:767px){
+@media (max-width: 768px){
+
+    header .centerBar .srm-item {
+        display: none;
+    }
+}
+
+
+@media (max-width:767.98px){
 
     header .centerBar {
         display: flex;
@@ -12,11 +20,11 @@
         .srm-item {
             display: none;
         }
-    .extension {
-        width: 100%;
-        .img-slider {
+        .extension {
             width: 100%;
-        }
+            .img-slider {
+                width: 100%;
+            }
         }
     }
 }
