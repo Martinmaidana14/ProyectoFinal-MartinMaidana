@@ -7,6 +7,8 @@
 h1 {
   display: flex;
   justify-content: center;
+  color: rgba(100, 149, 247, 0.774);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*VARIABLE*/
@@ -92,7 +94,7 @@ header .centerBar {
 header .centerBar .nav-item {
   display: flex;
   align-self: center;
-  margin-left: 100px;
+  margin-left: 14px;
 }
 
 .home {
