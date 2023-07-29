@@ -3,14 +3,6 @@
 /* HEADER*/
 
 
-@media (max-width: 768px){
-
-    header .centerBar .srm-item {
-        display: none;
-    }
-}
-
-
 @media (max-width:767.98px){
 
     header .centerBar {
@@ -20,15 +12,18 @@
         .srm-item {
             display: none;
         }
-        .extension {
-            width: 100%;
-            .img-slider {
-                width: 100%;
-            }
-        }
     }
 }
 
+
+@media (max-width:767px){
+    .extension {
+        width: 100%;
+        .img-slider {
+            width: 100%;
+        }
+    }
+}
 
 /* MAIN CONTACTO */
 

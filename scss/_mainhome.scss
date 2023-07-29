@@ -3,12 +3,12 @@
 
 header .centerBar {
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content: space-evenly;
     padding: 0%;
     .nav-item {
         display: flex;
         align-self: center;
+        margin-left: 100px;
     }
 }
 .home {

@@ -86,13 +86,13 @@ footer .copy {
 
 header .centerBar {
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content: space-evenly;
   padding: 0%;
 }
 header .centerBar .nav-item {
   display: flex;
   align-self: center;
+  margin-left: 100px;
 }
 
 .home {
@@ -348,11 +348,6 @@ header .centerBar .nav-item {
 }
 
 /* HEADER*/
-@media (max-width: 768px) {
-  header .centerBar .srm-item {
-    display: none;
-  }
-}
 @media (max-width: 767.98px) {
   header .centerBar {
     display: flex;
@@ -362,10 +357,12 @@ header .centerBar .nav-item {
   header .centerBar .srm-item {
     display: none;
   }
-  header .centerBar .extension {
+}
+@media (max-width: 767px) {
+  .extension {
     width: 100%;
   }
-  header .centerBar .extension .img-slider {
+  .extension .img-slider {
     width: 100%;
   }
 }
