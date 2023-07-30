@@ -16,7 +16,7 @@ h1 {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(100, 149, 247, 0.774);
+  background-color: rgba(100, 149, 247, 0.7725490196);
   /* NAVBAR*/
   /* Centrado */
 }
@@ -32,6 +32,12 @@ header .centerBar {
 header .flexEnd {
   justify-content: flex-end;
   align-items: center;
+}
+header .srmaidanalogo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 header nav {
   display: flex;
@@ -49,8 +55,8 @@ header nav ul li {
 }
 header nav .logotipo {
   display: flex;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 /* FOOTER */
@@ -220,6 +226,7 @@ header .centerBar .nav-item {
 }
 .contact form .inputs {
   display: grid;
+  gap: 10px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "h1 h1" "nombre correo" "tel contrasenia" "mensaje mensaje" "boton boton";
 }
@@ -228,18 +235,31 @@ header .centerBar .nav-item {
   justify-self: center;
 }
 .contact form .inputs .nombr {
+  font-weight: 800;
   grid-area: nombre;
+  display: flex;
+  flex-direction: column;
 }
 .contact form .inputs .corre {
+  font-weight: 800;
   grid-area: correo;
+  display: flex;
+  flex-direction: column;
 }
 .contact form .inputs .telefon {
+  font-weight: 800;
   grid-area: tel;
+  display: flex;
+  flex-direction: column;
 }
 .contact form .inputs .contraseni {
+  font-weight: 800;
   grid-area: contrasenia;
+  display: flex;
+  flex-direction: column;
 }
 .contact form .inputs .mensaje {
+  font-weight: 800;
   grid-area: mensaje;
   display: flex;
   flex-direction: column;

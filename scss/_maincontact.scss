@@ -12,6 +12,7 @@
         width: 50%;
         .inputs {
             display: grid;
+            gap: 10px;
             grid-template-columns: 1fr 1fr;
             grid-template-areas:
             "h1 h1"
@@ -24,18 +25,31 @@
                 justify-self: center;
             }
             .nombr {
+                font-weight: 800;
                 grid-area: nombre;
+                display: flex;
+                flex-direction: column;
             }
             .corre {
+                font-weight: 800;
                 grid-area: correo;
+                display: flex;
+                flex-direction: column;
             }
             .telefon {
+                font-weight: 800;
                 grid-area: tel;
+                display: flex;
+                flex-direction: column;
             }
             .contraseni {
+                font-weight: 800;
                 grid-area: contrasenia;
+                display: flex;
+                flex-direction: column;
             }
             .mensaje {
+                font-weight: 800;
                 grid-area: mensaje;
                 display: flex;
                 flex-direction: column;
