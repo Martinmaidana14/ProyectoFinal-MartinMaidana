@@ -91,6 +91,9 @@ header .centerBar {
   justify-content: space-evenly;
   padding: 0%;
 }
+header .centerBar .container-fluid {
+  padding: 0px 60px;
+}
 header .centerBar .nav-item {
   display: flex;
   align-self: center;
@@ -176,6 +179,7 @@ header .centerBar .nav-item {
 }
 .somos .imgtexto .textosomos {
   color: black;
+  align-self: center;
   width: 90%;
   padding: 40px;
   margin: 0;
@@ -354,7 +358,10 @@ header .centerBar .nav-item {
   header .centerBar {
     display: flex;
     flex-direction: column;
-    justify-items: end;
+    align-items: end;
+  }
+  header .centerBar .container-fluid {
+    padding: 0px 20px;
   }
   header .centerBar .srm-item {
     display: none;
@@ -400,7 +407,15 @@ header .centerBar .nav-item {
   }
 }
 /*MAIN SOMOS */
+@media (max-width: 768px) {
+  .somos .imgtexto {
+    width: 80%;
+  }
+}
 @media (max-width: 400px) {
+  .somos .imgtexto {
+    width: 100%;
+  }
   .somos .contenedorImgSomos {
     width: 100%;
   }

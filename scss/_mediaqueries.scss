@@ -8,7 +8,10 @@
     header .centerBar {
         display: flex;
         flex-direction: column;
-        justify-items: end;
+        align-items: end;
+        .container-fluid {
+            padding: 0px 20px;
+        }
         .srm-item {
             display: none;
         }
@@ -70,9 +73,20 @@
 
 /*MAIN SOMOS */
 
+
+@media (max-width:768px){
+
+    .somos .imgtexto {
+        width: 80%;
+    }
+}
+
 @media (max-width:400px) {
 
     .somos{
+        .imgtexto {
+            width: 100%;
+            }
         .contenedorImgSomos{
             width: 100%;
             .big {
@@ -87,3 +101,4 @@
         }
     }
 }
+
