@@ -4,13 +4,6 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  color: rgba(100, 149, 247, 0.774);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
 /*VARIABLE*/
 /* HEADER */
 header {
@@ -29,6 +22,10 @@ header .centerBar {
   align-items: center;
   justify-content: center;
 }
+header .centerBar .nav-link {
+  font-family: fantasy;
+  font-size: 16px;
+}
 header .flexEnd {
   justify-content: flex-end;
   align-items: center;
@@ -37,7 +34,7 @@ header .srmaidanalogo {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  width: 150px;
 }
 header nav {
   display: flex;
@@ -55,8 +52,8 @@ header nav ul li {
 }
 header nav .logotipo {
   display: flex;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
 }
 
 /* FOOTER */
@@ -98,7 +95,7 @@ header .centerBar {
   padding: 0%;
 }
 header .centerBar .container-fluid {
-  padding: 0px 60px;
+  padding: 0px 25px;
 }
 header .centerBar .nav-item {
   display: flex;
@@ -115,10 +112,13 @@ header .centerBar .nav-item {
   padding-top: 20px;
 }
 .home h1 {
-  text-align: center;
+  display: flex;
+  color: rgba(100, 149, 247, 0.774);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .home h4 {
   text-align: center;
+  font-weight: 800;
 }
 .home .caja {
   height: 100px;
@@ -136,9 +136,16 @@ header .centerBar .nav-item {
 .servis {
   background-color: #EAECEE;
 }
+.servis h1 {
+  display: flex;
+  color: rgba(100, 149, 247, 0.774);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+}
 .servis h2 {
   display: flex;
   justify-content: center;
+  font-weight: 800;
 }
 .servis .incendio {
   width: 80%;
@@ -151,6 +158,7 @@ header .centerBar .nav-item {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  font-weight: 800;
 }
 .servis p {
   display: flex;
@@ -170,6 +178,12 @@ header .centerBar .nav-item {
   background-color: #EAECEE;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.somos h1 {
+  display: flex;
+  color: rgba(100, 149, 247, 0.774);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   justify-content: center;
 }
 .somos .imgtexto {
@@ -218,6 +232,11 @@ header .centerBar .nav-item {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.contact h1 {
+  display: flex;
+  color: rgba(100, 149, 247, 0.774);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .contact form {
   display: flex;
@@ -326,6 +345,11 @@ header .centerBar .nav-item {
   padding-bottom: 20px;
   padding-top: 20px;
   /* CARD BOOTSTRAP */
+}
+.clients h1 {
+  display: flex;
+  color: rgba(100, 149, 247, 0.774);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .clients .card {
   display: flex;

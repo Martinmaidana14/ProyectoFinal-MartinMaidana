@@ -14,6 +14,10 @@ header {
     .centerBar{
         align-items: center;
         justify-content: center;
+        .nav-link {
+        font-family: fantasy;
+        font-size: 16px;
+        }
     }
     .flexEnd{
         justify-content: flex-end;
@@ -23,7 +27,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 200px;
+        width: 150px;
     }
     nav {
         display: flex;
@@ -40,8 +44,8 @@ header {
         }
         .logotipo{
             display: flex;
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
         }
     }
 }

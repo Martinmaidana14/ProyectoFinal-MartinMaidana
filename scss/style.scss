@@ -8,16 +8,14 @@
 
 // TODOS LOS H1
 
-h1 {
-    display: flex;
-    justify-content: center;
-    color: rgba(100, 149, 247, 0.774);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 /*VARIABLE*/
 
 $main-color: #EAECEE;
+
+$segundos-encabezados: 800;
+
+$font-h1: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
 @import "./header";
 

@@ -1,8 +1,15 @@
 .servis {
     background-color: $main-color;
+    h1 {
+        display: flex;
+        color: rgba(100, 149, 247, 0.774);
+        font-family: $font-h1;
+        justify-content: center;
+    }
     h2 {
         display: flex;
         justify-content: center;
+        font-weight: $segundos-encabezados;
     }
     .incendio {
         width: 80%;
@@ -15,6 +22,7 @@
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        font-weight: $segundos-encabezados;
     }
     p {
         display: flex;

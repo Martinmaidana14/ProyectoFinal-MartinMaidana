@@ -6,7 +6,7 @@ header .centerBar {
     justify-content: space-evenly;
     padding: 0%;
     .container-fluid {
-        padding: 0px 60px;
+        padding: 0px 25px;
     }
     .nav-item {
         display: flex;
@@ -22,10 +22,13 @@ header .centerBar {
     padding-bottom: 20px;
     padding-top: 20px;
     h1 {
-        text-align: center;
+        display: flex;
+        color: rgba(100, 149, 247, 0.774);
+        font-family: $font-h1;
     }
     h4 {
         text-align: center;
+        font-weight: $segundos-encabezados;
     }
     .caja {
         height: 100px;
