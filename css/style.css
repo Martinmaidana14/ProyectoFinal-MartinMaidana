@@ -112,7 +112,10 @@ header .centerBar .nav-item {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.home h1 {
+.home .contenedorH1-home {
+  text-align: center;
+}
+.home .contenedorH1-home h1 {
   display: flex;
   color: rgba(100, 149, 247, 0.774);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -123,16 +126,23 @@ header .centerBar .nav-item {
   font-weight: 800;
 }
 .home .caja {
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(34, 34, 34, 0.8862745098);
   color: white;
-  text-align: center;
   padding: 25px;
   border: 2px groove rgb(100, 149, 247);
   border-radius: 10px;
 }
-.home .carouselSlide {
-  width: 80%;
+.home .caja .text {
+  display: flex;
+  text-align: center;
+}
+.home .carousel {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
 }
 
 .servis {

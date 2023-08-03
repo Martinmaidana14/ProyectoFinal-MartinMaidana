@@ -21,26 +21,36 @@ header .centerBar {
     justify-content: center; 
     padding-bottom: 20px;
     padding-top: 20px;
-    h1 {
-        display: flex;
-        color: rgba(100, 149, 247, 0.774);
-        font-family: $font-h1;
-        justify-content: center;
+    .contenedorH1-home {
+        text-align: center;
+        h1 {
+            display: flex;
+            color: rgba(100, 149, 247, 0.774);
+            font-family: $font-h1;
+            justify-content: center;
+        }
     }
     h4 {
         text-align: center;
         font-weight: $segundos-encabezados;
     }
     .caja {
-        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #222222e2;
         color: white;
-        text-align: center;
         padding: 25px;
         border: 2px groove rgba(100, 149, 247);
         border-radius: 10px;
+        .text {
+            display: flex;
+            text-align: center;
+        }
     }
-    .carouselSlide {
-        width: 80%;
+    .carousel {
+        display: flex;
+        align-self: center;
+        margin-top: 20px;
     }
 }
