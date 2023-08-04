@@ -21,9 +21,10 @@ header nav {
   /* NAVBAR*/
 }
 header nav .centerBar {
-  padding: 0%;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  margin: 0%;
+  padding: 0%;
   list-style-type: none;
 }
 header nav .centerBar .nav-item {
