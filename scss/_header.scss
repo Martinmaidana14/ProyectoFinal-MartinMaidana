@@ -4,43 +4,25 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #6495f7c5;
-    /* NAVBAR*/
-    .logoRedes{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    /* Centrado */
-    .centerBar{
-        align-items: center;
-        justify-content: center;
-        .nav-link {
-        font-family: fantasy;
-        font-size: 16px;
-        color: rgba(0, 0, 0, 0.814);
-        }
-    }
-    .flexEnd{
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .srmaidanalogo {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 150px;
-    }
     nav {
         display: flex;
         align-items: center;
-        background-color: rgba(100, 149, 247, 0.774);
+        background-color: #6495f7c5;
         width: 100%;
         justify-content: space-between;
-        ul {
-            display: flex;
+        /* Centrado */
+        .centerBar{
+            padding: 0%;
+            align-items: center;
+            justify-content: center;
             list-style-type: none;
-            li {
+            .nav-item   {
                 margin-left: 10px;
+                .nav-link {
+                    font-family: fantasy;
+                    font-size: 16px;
+                    color: rgba(0, 0, 0, 0.814);
+                }
             }
         }
         .logotipo{
@@ -48,5 +30,29 @@ header {
             width: 140px;
             height: 140px;
         }
+        .srmaidanalogo {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+        }
+            /* NAVBAR*/
+    .logoRedes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-}
+    }
+    .flexEnd{
+        justify-content: flex-end;
+        align-items: center;
+    }
+        .container-fluid {
+            padding: 0px 25px;
+        }
+        .nav-item {
+            display: flex;
+            align-self: center;
+            margin-left: 14px;
+        }
+    }

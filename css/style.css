@@ -10,68 +10,74 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: rgba(100, 149, 247, 0.7725490196);
-  /* NAVBAR*/
-  /* Centrado */
-}
-header .logoRedes {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-header .centerBar {
-  align-items: center;
-  justify-content: center;
-}
-header .centerBar .nav-link {
-  font-family: fantasy;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.814);
-}
-header .flexEnd {
-  justify-content: flex-end;
-  align-items: center;
-}
-header .srmaidanalogo {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
 }
 header nav {
   display: flex;
   align-items: center;
-  background-color: rgba(100, 149, 247, 0.774);
+  background-color: rgba(100, 149, 247, 0.7725490196);
   width: 100%;
   justify-content: space-between;
+  /* Centrado */
+  /* NAVBAR*/
 }
-header nav ul {
-  display: flex;
+header nav .centerBar {
+  padding: 0%;
+  align-items: center;
+  justify-content: center;
   list-style-type: none;
 }
-header nav ul li {
+header nav .centerBar .nav-item {
   margin-left: 10px;
+}
+header nav .centerBar .nav-item .nav-link {
+  font-family: fantasy;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.814);
 }
 header nav .logotipo {
   display: flex;
   width: 140px;
   height: 140px;
 }
+header nav .srmaidanalogo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+header nav .logoRedes {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .flexEnd {
+  justify-content: flex-end;
+  align-items: center;
+}
+header .container-fluid {
+  padding: 0px 25px;
+}
+header .nav-item {
+  display: flex;
+  align-self: center;
+  margin-left: 14px;
+}
 
 /* FOOTER */
 footer {
   background-color: #4c4747;
 }
-footer .redes {
+footer .nav-redes {
   display: flex;
   color: rgb(100, 149, 247);
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-footer .redes .irAHeader {
+footer .nav-redes .irAHeader {
   background: linear-gradient(to right, #9e5a45, rgba(255, 213, 162, 0.785));
   color: white;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
 }
