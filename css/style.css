@@ -38,11 +38,6 @@ header nav .centerBar .nav-item .nav-link {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.814);
 }
-header nav .logotipo {
-  display: flex;
-  width: 140px;
-  height: 140px;
-}
 header nav .srmaidanalogo {
   flex-direction: column;
   justify-content: center;
@@ -54,11 +49,16 @@ header nav .logoRedes {
   justify-content: center;
   align-items: center;
 }
-header .flexEnd {
+header nav .logoRedes .logotipo {
+  display: flex;
+  width: 140px;
+  height: 140px;
+}
+header nav .flexEnd {
   justify-content: flex-end;
   align-items: center;
 }
-header .container-fluid {
+header nav .container-fluid {
   padding: 0px 25px;
 }
 

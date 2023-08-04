@@ -29,11 +29,6 @@ header {
                 }
             }
         }
-        .logotipo{
-            display: flex;
-            width: 140px;
-            height: 140px;
-        }
         .srmaidanalogo {
             flex-direction: column;
             justify-content: center;
@@ -45,13 +40,18 @@ header {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            .logotipo{
+                display: flex;
+                width: 140px;
+                height: 140px;
+            }
+        }
+        .flexEnd{
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .container-fluid {
+            padding: 0px 25px;
         }
     }
-    .flexEnd{
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .container-fluid {
-        padding: 0px 25px;
-    }
-    }
+}
