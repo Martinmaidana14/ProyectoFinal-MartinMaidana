@@ -18,6 +18,9 @@ header {
             padding: 0%;
             list-style-type: none;
             .nav-item   {
+                display: flex;
+                align-self: center;
+                margin-left: 14px;
                 margin-left: 10px;
                 .nav-link {
                     font-family: fantasy;
@@ -38,22 +41,17 @@ header {
             width: 150px;
         }
             /* NAVBAR*/
-    .logoRedes{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+        .logoRedes{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
     .flexEnd{
         justify-content: flex-end;
         align-items: center;
     }
-        .container-fluid {
-            padding: 0px 25px;
-        }
-        .nav-item {
-            display: flex;
-            align-self: center;
-            margin-left: 14px;
-        }
+    .container-fluid {
+        padding: 0px 25px;
+    }
     }

@@ -28,6 +28,9 @@ header nav .centerBar {
   list-style-type: none;
 }
 header nav .centerBar .nav-item {
+  display: flex;
+  align-self: center;
+  margin-left: 14px;
   margin-left: 10px;
 }
 header nav .centerBar .nav-item .nav-link {
@@ -57,11 +60,6 @@ header .flexEnd {
 }
 header .container-fluid {
   padding: 0px 25px;
-}
-header .nav-item {
-  display: flex;
-  align-self: center;
-  margin-left: 14px;
 }
 
 /* FOOTER */
