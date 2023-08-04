@@ -1,19 +1,6 @@
 // MAIN INDEX 
 
 
-header .centerBar {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0%;
-    .container-fluid {
-        padding: 0px 25px;
-    }
-    .nav-item {
-        display: flex;
-        align-self: center;
-        margin-left: 14px;
-    }
-}
 .home {
     background-color: $main-color;
     display: flex;
