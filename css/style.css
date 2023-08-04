@@ -96,20 +96,6 @@ footer .copy {
   align-items: center;
 }
 
-header .centerBar {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0%;
-}
-header .centerBar .container-fluid {
-  padding: 0px 25px;
-}
-header .centerBar .nav-item {
-  display: flex;
-  align-self: center;
-  margin-left: 14px;
-}
-
 .home {
   background-color: #EAECEE;
   display: flex;
