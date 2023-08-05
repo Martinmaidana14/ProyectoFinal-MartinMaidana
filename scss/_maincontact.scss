@@ -88,26 +88,16 @@
         .contact2 {
             display: flex;
             flex-direction: column;
+            text-align: center;
             background-color: white;
-            .direccion {
-                background-color: bisque;
-            }
-            .telefono {
-                background-color: bisque;
-            }
-            .email {
-                background-color: bisque;
-            }
-            .sitioweb {
-                background-color: bisque;
+            p {
+                background-color: rgba(86, 129, 216, 0.622);
             }
         }
     }
 }
 
 /* DIV MAPS */
-
-
 .contenedorMaps {
     display: flex;
     justify-content: center;

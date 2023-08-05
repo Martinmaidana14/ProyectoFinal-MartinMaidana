@@ -30,19 +30,12 @@ header nav .centerBar {
 header nav .centerBar .nav-item {
   display: flex;
   align-self: center;
-  margin-left: 14px;
-  margin-left: 10px;
+  margin-right: 14px;
 }
 header nav .centerBar .nav-item .nav-link {
   font-family: fantasy;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.814);
-}
-header nav .srmaidanalogo {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
 }
 header nav .logoRedes {
   flex-direction: column;
@@ -54,12 +47,21 @@ header nav .logoRedes .logotipo {
   width: 140px;
   height: 140px;
 }
+header nav a {
+  text-decoration: none;
+}
 header nav .flexEnd {
   justify-content: flex-end;
   align-items: center;
 }
 header nav .container-fluid {
   padding: 0px 25px;
+}
+header nav .srmaidanalogo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
 }
 
 /* FOOTER */
@@ -73,12 +75,8 @@ footer .nav-redes {
   justify-content: space-evenly;
   align-items: center;
 }
-footer .nav-redes .irAHeader {
-  background: linear-gradient(to right, #9e5a45, rgba(255, 213, 162, 0.785));
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+footer .nav-redes a {
+  text-decoration: none;
 }
 footer .info {
   display: flex;
@@ -314,19 +312,11 @@ footer .copy {
 .contact .contenedorList .contact2 {
   display: flex;
   flex-direction: column;
+  text-align: center;
   background-color: white;
 }
-.contact .contenedorList .contact2 .direccion {
-  background-color: bisque;
-}
-.contact .contenedorList .contact2 .telefono {
-  background-color: bisque;
-}
-.contact .contenedorList .contact2 .email {
-  background-color: bisque;
-}
-.contact .contenedorList .contact2 .sitioweb {
-  background-color: bisque;
+.contact .contenedorList .contact2 p {
+  background-color: rgba(86, 129, 216, 0.622);
 }
 
 /* DIV MAPS */
@@ -406,6 +396,9 @@ footer .copy {
     display: flex;
     flex-direction: column;
     align-items: end;
+  }
+  header .centerBar .nav-item {
+    margin-left: auto;
   }
   header .centerBar .container-fluid {
     padding: 0px 20px;

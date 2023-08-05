@@ -8,12 +8,8 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        .irAHeader {
-            background: linear-gradient(to right, #9e5a45 , rgba(255, 213, 162, 0.785));
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
+        a {
+            text-decoration: none;
         }
     }
     .info {
