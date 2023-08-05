@@ -39,8 +39,19 @@ header {
                 height: 140px;
             }
         }
+        /*Estilos para los enlaces*/
         a {
-            text-decoration: none;
+            color: white; /* Cambia el color normal del enlace aquí */
+            text-decoration: none; /* Quita la subrayado por defecto de los enlaces */
+            &:visited {
+                color: green; /* Cambia el color después de ser visitado */
+            }
+            &:active {
+                color: red; /* Cambia el color cuando se hace clic en el enlace */
+            }
+            &:hover {
+                color: orange; /* Cambia el color cuando el mouse está sobre el enlace */
+            }
         }
         .flexEnd{
             justify-content: flex-end;
