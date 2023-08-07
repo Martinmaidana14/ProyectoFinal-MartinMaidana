@@ -29,35 +29,26 @@
                 grid-area: h1;
                 justify-self: center;
             }
+            @mixin contactanos($display, $direccionflex, $gruesodeletra, $areagrid) {
+                display: $display;
+                flex-direction: $direccionflex;
+                font-weight: $gruesodeletra;
+                grid-area: $areagrid;
+            }
             .nombr {
-                font-weight: 800;
-                grid-area: nombre;
-                display: flex;
-                flex-direction: column;
+                @include contactanos(flex, column, 800, nombre);
             }
             .corre {
-                font-weight: 800;
-                grid-area: correo;
-                display: flex;
-                flex-direction: column;
+                @include contactanos(flex, column, 800, correo);
             }
             .telefon {
-                font-weight: 800;
-                grid-area: tel;
-                display: flex;
-                flex-direction: column;
+                @include contactanos(flex, column, 800, tel);
             }
             .contraseni {
-                font-weight: 800;
-                grid-area: contrasenia;
-                display: flex;
-                flex-direction: column;
+                @include contactanos(flex, column, 800, contrasenia);
             }
             .mensaje {
-                font-weight: 800;
-                grid-area: mensaje;
-                display: flex;
-                flex-direction: column;
+                @include contactanos(flex, column, 800, mensaje);
             }
             .boton {
                 grid-area: boton;
