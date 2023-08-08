@@ -2,22 +2,28 @@
 
 
 .contact {
-    background-color: $main-color;
+    background-image: url(../img/conexionbrida.jpg);
+    background-position: 0px 14px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     h1 {
         display: flex;
-        color: rgba(100, 149, 247, 0.774);
+        color: rgba(0, 0, 0, 0.689);
         font-family: $font-h1;
     }
     form{
         display: flex;
+        background-color: rgba(255, 255, 255, 0.2);
         justify-content: center;
-        width: 50%;
+        border-radius: 20px;
+        backdrop-filter:blur(4px);
         .inputs {
             display: grid;
-            gap: 10px;
+            gap: 12px;
             grid-template-columns: 1fr 1fr;
             grid-template-areas:
             "h1 h1"
@@ -29,26 +35,27 @@
                 grid-area: h1;
                 justify-self: center;
             }
-            @mixin contactanos($display, $direccionflex, $gruesodeletra, $areagrid) {
+            @mixin contactanos($display, $direccionflex, $gruesodeletra, $areagrid, $fondo) {
                 display: $display;
                 flex-direction: $direccionflex;
                 font-weight: $gruesodeletra;
                 grid-area: $areagrid;
+                background-color: $fondo;
             }
             .nombr {
-                @include contactanos(flex, column, 800, nombre);
+                @include contactanos(flex, column, 800, nombre, rgba(200, 200, 253, 0.1));
             }
             .corre {
-                @include contactanos(flex, column, 800, correo);
+                @include contactanos(flex, column, 800, correo, rgba(200, 200, 253, 0.1));
             }
             .telefon {
-                @include contactanos(flex, column, 800, tel);
+                @include contactanos(flex, column, 800, tel, rgba(200, 200, 253, 0.1));
             }
             .contraseni {
-                @include contactanos(flex, column, 800, contrasenia);
+                @include contactanos(flex, column, 800, contrasenia, rgba(200, 200, 253, 0.1));
             }
             .mensaje {
-                @include contactanos(flex, column, 800, mensaje);
+                @include contactanos(flex, column, 800, mensaje, rgba(200, 200, 253, 0.1));
             }
             .boton {
                 grid-area: boton;
@@ -75,12 +82,13 @@
         .contenedorcontacto {
             display: flex;
             justify-content: center;
+            background-color: rgba(255, 255, 255, 0.2);
         }
         .contact2 {
             display: flex;
             flex-direction: column;
             text-align: center;
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.2);
             p {
                 background-color: rgba(86, 129, 216, 0.622);
             }
@@ -92,6 +100,7 @@
 .contenedorMaps {
     display: flex;
     justify-content: center;
+    background: linear-gradient(90deg, rgba(0,42,112,1) 4%, rgba(58,134,255,1) 14%, rgba(58,134,255,1) 86%, rgba(0,42,112,1) 96%);
     .iframecontact {
         width: 80%;
         height: 400px;

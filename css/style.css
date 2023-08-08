@@ -153,6 +153,12 @@ footer .copy {
   display: flex;
   text-align: center;
 }
+.home h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-weight: 800;
+}
 .home .carousel {
   display: flex;
   align-self: center;
@@ -256,24 +262,30 @@ footer .copy {
 
 /* MAIN CONTACTO */
 .contact {
-  background-color: #EAECEE;
+  background-image: url(../img/conexionbrida.jpg);
+  background-position: 0px 14px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .contact h1 {
   display: flex;
-  color: rgba(100, 149, 247, 0.774);
+  color: rgba(0, 0, 0, 0.689);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .contact form {
   display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
   justify-content: center;
-  width: 50%;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
 }
 .contact form .inputs {
   display: grid;
-  gap: 10px;
+  gap: 12px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "h1 h1" "nombre correo" "tel contrasenia" "mensaje mensaje" "boton boton";
 }
@@ -286,30 +298,35 @@ footer .copy {
   flex-direction: column;
   font-weight: 800;
   grid-area: nombre;
+  background-color: rgba(200, 200, 253, 0.1);
 }
 .contact form .inputs .corre {
   display: flex;
   flex-direction: column;
   font-weight: 800;
   grid-area: correo;
+  background-color: rgba(200, 200, 253, 0.1);
 }
 .contact form .inputs .telefon {
   display: flex;
   flex-direction: column;
   font-weight: 800;
   grid-area: tel;
+  background-color: rgba(200, 200, 253, 0.1);
 }
 .contact form .inputs .contraseni {
   display: flex;
   flex-direction: column;
   font-weight: 800;
   grid-area: contrasenia;
+  background-color: rgba(200, 200, 253, 0.1);
 }
 .contact form .inputs .mensaje {
   display: flex;
   flex-direction: column;
   font-weight: 800;
   grid-area: mensaje;
+  background-color: rgba(200, 200, 253, 0.1);
 }
 .contact form .inputs .boton {
   grid-area: boton;
@@ -335,12 +352,13 @@ footer .copy {
 .contact .contenedorList .contenedorcontacto {
   display: flex;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .contact .contenedorList .contact2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .contact .contenedorList .contact2 p {
   background-color: rgba(86, 129, 216, 0.622);
@@ -350,6 +368,7 @@ footer .copy {
 .contenedorMaps {
   display: flex;
   justify-content: center;
+  background: linear-gradient(90deg, rgb(0, 42, 112) 4%, rgb(58, 134, 255) 14%, rgb(58, 134, 255) 86%, rgb(0, 42, 112) 96%);
 }
 .contenedorMaps .iframecontact {
   width: 80%;

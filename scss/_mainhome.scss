@@ -35,6 +35,12 @@
             text-align: center;
         }
     }
+    h5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        font-weight: $segundos-encabezados;
+    }
     .carousel {
         display: flex;
         align-self: center;
